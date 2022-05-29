@@ -1,0 +1,13 @@
+#snare-block img {
+    width: 250px;
+
+    cursor: pointer;
+
+    border-radius: 50px;
+
+    transition: 250ms all;
+}
+
+.active {
+    transform:rotate(10deg)
+}
