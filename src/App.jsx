@@ -1,10 +1,10 @@
 import './App.css'
-import Snare from './components/Snare.jsx'
+import Drum from './components/Drum.jsx'
 
 function App() {
   return (
     <>
-      <Snare />
+      <Drum />
     </>
   );
 }
