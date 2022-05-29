@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/drumkit/static/css/main.b6577e4a.css",
+    "main.css": "/drumkit/static/css/main.b224ae55.css",
     "main.js": "/drumkit/static/js/main.7709bb34.js",
     "static/media/kick.wav": "/drumkit/static/media/kick.7244680104d9d1bfac43.wav",
     "static/media/snare.wav": "/drumkit/static/media/snare.4e5990fa0eda01027956.wav",
     "index.html": "/drumkit/index.html",
-    "main.b6577e4a.css.map": "/drumkit/static/css/main.b6577e4a.css.map",
+    "main.b224ae55.css.map": "/drumkit/static/css/main.b224ae55.css.map",
     "main.7709bb34.js.map": "/drumkit/static/js/main.7709bb34.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6577e4a.css",
+    "static/css/main.b224ae55.css",
     "static/js/main.7709bb34.js"
   ]
 }
