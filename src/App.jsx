@@ -1,10 +1,14 @@
 import './App.css'
-import Snare from './components/Snare.jsx'
+
+import Drum from './components/Drum/Drum.jsx'
+import Roller from './components/Roller/Roller.jsx'
 
 function App() {
   return (
     <>
-      <Snare />
+      <Roller/>
+
+      <Drum />
     </>
   );
 }

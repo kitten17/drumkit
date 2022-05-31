@@ -1,0 +1,70 @@
+#drum-block button {
+    background-color: transparent;
+    border: 0;
+
+    outline: none;
+}
+
+#drum-block button img {
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    border-radius: 50px;
+
+    transition: 250ms all;
+}
+
+.active {
+    transform: rotate(10deg);
+}
+
+#hihat-drum {
+    height: 350px;
+    width: 200px;
+}
+
+#snare-drum, #kick-drum {
+    width: 250px;
+}
+
+#cymbal-drum {
+    height: 350px;
+    width: 250px;
+}
+
+@media (max-width: 1100px) {
+    #cymbal-drum, #hihat-drum{
+        height: 275px;
+    }
+
+    #hihat-drum {
+        width: 150px;
+    }
+    
+    #snare-drum, #kick-drum {
+        width: 200px;
+    }
+    
+    #cymbal-drum {
+        width: 175px;
+    }
+}
+
+@media (max-width: 800px) {
+    #cymbal-drum, #hihat-drum{
+        height: 200px;
+    }
+
+    #hihat-drum {
+        width: 110px;
+    }
+    
+    #snare-drum, #kick-drum {
+        width: 150px;
+    }
+    
+    #cymbal-drum {
+        width: 125px;
+    }
+}
